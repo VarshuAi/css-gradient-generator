@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradient Generator — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">🌈</span>
+                <div class="title-col">
+                    <h1>CSS Gradient Generator</h1>
+                    <p class="tagline">Create smooth CSS multi-stop linear gradients and copy production-ready CSS.</p>
+                </div>
+            </div>
+            <div class="badge">utilities</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div id="grad-canvas" class="grad-box" style="height: 150px; border-radius: 12px; margin-bottom: 16px;"></div>
+            <div style="display: flex; gap: 16px; margin-bottom: 16px;">
+                <input type="color" id="grad-c1" value="#ff007f">
+                <input type="color" id="grad-c2" value="#00f5ff">
+                <input type="range" id="grad-angle" min="0" max="360" value="90">
+            </div>
+            <textarea id="grad-css" readonly style="width: 100%; height: 80px;"></textarea>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
