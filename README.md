@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Create smooth CSS multi-stop linear gradients and copy production-ready CSS.
+  name: css-gradient-generator version: 1.0 type: Repository author: VarshuAi description: >   Create smooth CSS multi-stop linear gradients and copy production-ready CSS. primary_tech: CSS
 primary_tech: CSS
 ```
 
